@@ -1,0 +1,38 @@
+.form {
+  width: 400px;
+  height: 300px;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &-input {
+    padding: 15px;
+    margin: 10px;
+    border: 0;
+    border-bottom: 1px solid #F1B8AE;
+    font-size: 18px;
+    color: #403A3A;
+  }
+
+  &-input::placeholder {
+    color: #403A3A;
+  }
+
+
+  &-button {
+    appearance:none;
+    margin-top:20px;
+    padding: 15px;
+    font-size: 18px;
+    border:none;
+    background-color:#ED7071;
+    color:#fff;
+    font-weight:600;
+    border-radius:5px;
+  }
+
+}
